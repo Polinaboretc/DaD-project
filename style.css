@@ -1,0 +1,19 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu-button{
+    background-image: url(./assets/menu.svg);
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-button:hover{
+    cursor: pointer;
+}
